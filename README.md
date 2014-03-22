@@ -1,4 +1,4 @@
-molinari-developers
+My Angular Website
 ===================
 
-Applicazione web sviluppata utilizzando Angular, Html e Css. 
+Website developed with AngularJS, Html5 and CSS3
