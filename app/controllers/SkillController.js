@@ -2,7 +2,7 @@
 
 app.controller('SkillController',
 
-    function SkillController($scope) {
+    function SkillController($scope, $rootScope, $location) {
 
         $scope.title = "Skill";
 
