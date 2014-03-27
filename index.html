@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html ng-app="Mayta">
+<html ng-app="molinari-developers">
 <head>
-    <title></title>
+    <title>Demo Molinari Developers</title>
 
     <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 </head>
 <body>
 
-<div ng-view></div>
-
+<div ng-class="direction">
+    <div ng-view class="view-animate"></div>
+</div>
 
 <script type="text/javascript" src="vendor/angular/angular.js"></script>
 <script type="text/javascript" src="vendor/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="vendor/angular-animate/angular-animate.js"></script>
 
 <script type="text/javascript" src="config/app.js"></script>
 <script type="text/javascript" src="config/route.js"></script>
 
 <script type="application/javascript" src="app/controllers/HomeController.js"></script>
-<script type="application/javascript" src="app/controllers/SkillController.js"></script>
+<script type="application/javascript" src="app/controllers/VideosController.js"></script>
+<script type="application/javascript" src="app/controllers/BooksController.js"></script>
+
+<script type="text/javascript" src="app/directives/CommonDirectives.js"></script>
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 
 app.controller('HomeController',
 
-    function HomeController($scope) {
+    function HomeController($scope, $rootScope, $location) {
 
         $scope.title = "Home";
 
