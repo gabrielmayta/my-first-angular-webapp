@@ -1,4 +1,4 @@
-var app = angular.module('Mayta', [
+var app = angular.module('molinari-developers', [
     'ngRoute',
     'ngAnimate'
 ]);

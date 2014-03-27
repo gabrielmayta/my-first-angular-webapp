@@ -1,0 +1,15 @@
+<div ng-controller="VideosController" class="page">
+
+    <div ng-include="'app/views/partials/header.html'"></div>
+
+    <h1>{{title}}</h1>
+
+    <input type="text" ng-model="searchVideo" placeholder="Search video..."/>
+
+    <div class="video-list" ng-repeat="video in videos | filter : searchVideo">
+        <h2>{{video.title}}</h2>
+        <iframe ng-src="video.src"></iframe>
+    </div>
+
+
+</div>

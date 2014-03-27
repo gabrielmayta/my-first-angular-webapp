@@ -1,13 +1,9 @@
 <div class="header">
-    <ul>
-        <li>
-            <a ng-href="#home">Home</a>
-        </li>
-        <li>
-            <a ng-href="#skill">Skill</a>
-        </li>
-        <li>
-            <a ng-href="#contacts">Contacts</a>
-        </li>
-    </ul>
+    <div class="toggle-menu" ng-click="toggleMenu =! toggleMenu"></div>
+</div>
+<div class="menu" ng-show="toggleMenu" hide-menu>
+    <a ng-href="#home">Home</a>
+    <a ng-href="#videos">Videos</a>
+    <a ng-href="#books">Books</a>
+    <button ng-click="toggleMenu =! toggleMenu">Close</button>
 </div>
